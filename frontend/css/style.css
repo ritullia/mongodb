@@ -1,0 +1,85 @@
+@import './font-awesome.min.css';
+
+body {
+    background: #a2a1a3;
+    background-repeat: cover;
+    background-size: 100%;
+}
+
+.todo-container {
+    background: #edcdd1;
+    max-width: 600px;
+    margin-top: 2rem;
+    padding: 2rem;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
+
+.list-heading {
+    text-align: center;
+    color: #afd4ca;
+}
+
+.messages {
+    display: none;
+}
+
+.messages.show {
+    display: block;
+    font-size: 8px;
+    color: #6a9ff3;
+}
+
+.mark-done {
+    text-decoration: none;
+    color: #fff;
+}
+.mark-done.done {
+    text-decoration: line-through;
+    color: #06a77d;
+}
+
+#todos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+}
+
+#todos ul > li {
+    padding: 5px 0;
+    border-bottom: 0.5px #06a77d;
+}
+
+li {
+    display: block;
+    font-size: 24px;
+    margin: 25px 0;
+}
+
+.edit-mode {
+    background: #267009;
+}
+
+.actions {
+    padding-top: 15px;
+}
+
+.update-todo,
+.delete-todo {
+    float: right;
+    margin-left: 5px;
+}
+
+.btn-secondary {
+    float: right;
+    color: #fbfbfb;
+    background-color: #f1a208;
+    border: none;
+}
+
+.btn-outline-secondary {
+    background-color: #f1a208;
+    border: none;
+    color: #fff;
+}
