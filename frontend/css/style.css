@@ -2,8 +2,6 @@
 
 body {
     background: #a2a1a3;
-    background-repeat: cover;
-    background-size: 100%;
 }
 
 .todo-container {
@@ -18,7 +16,7 @@ body {
 
 .list-heading {
     text-align: center;
-    color: #afd4ca;
+    color: #5e053d;
 }
 
 .messages {
@@ -48,17 +46,21 @@ body {
 
 #todos ul > li {
     padding: 5px 0;
-    border-bottom: 0.5px #06a77d;
+    border-bottom: 0.5px #2e4942;
 }
 
 li {
     display: block;
-    font-size: 24px;
-    margin: 25px 0;
+    font-size: 18px;
+    margin: 16px 0;
 }
 
 .edit-mode {
-    background: #267009;
+    background: #e0ebe1;
+}
+
+.btn-success{
+    background: #15831e;
 }
 
 .actions {
